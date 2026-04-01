@@ -1,3 +1,5 @@
+#AdvComArc TP4 - 3G & LTE Mouti Amir, Barreira Romero Adrian
+
 """
 ================================================================================
   TSM-AdvComArch - TP Securite 3G et LTE
@@ -211,7 +213,7 @@ def derive_session_key(CK: bytes, IK: bytes, validity_minutes: int = 20) -> dict
 # =============================================================================
 
 SEPARATOR = b"||SEP||"
-PORT      = 55321
+PORT      = 40000
 
 
 def send_msg(sock, *parts):
